@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { supabase } from './lib/supabaseClient';
 
 // PUBLIC_INTERFACE
 function App() {
